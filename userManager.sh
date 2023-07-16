@@ -1,12 +1,6 @@
-#Edoardo Signoretto
-#2ª Bioinformatica
-#VR446636
-#PROGETTO SHELL BASH AA. 2020 - 2021
-#8 DICEMBRE 2020
-
 #!/bin/bash
 #DICHIARAZIONE FILE DI CONFIGURAZIONE
-FC=$(grep "^[^#]" userManagerSignoretto.txt)
+FC=$(grep "^[^#]" user.txt)
 #DICHIARAZIONE DI VARIABILE
 finish=$(wc -l etc/passwd | cut -b 1-3) #conto le righe del file etc/passwd
 red=`tput setaf 1` #variabile per colore rosso
