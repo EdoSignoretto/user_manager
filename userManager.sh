@@ -533,7 +533,7 @@ operazione=1 #VARIABILE PER CICLO WHILE
 while [ $operazione -lt 8 ]
 do
 	clear
-	echo -e "${green}Questo è il progetto di Bash di Edoardo Signoretto${reset}\n"
+	echo -e "${green}Questo è il progetto di Bash di Edoardo${reset}\n"
 	echo "1. Visualizza elenco utenti completo"
 	echo "2. Visualizza elenco utenti per nome"
 	echo "3. Ricerca utente per UID"
